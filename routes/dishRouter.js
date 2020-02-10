@@ -26,4 +26,4 @@ dishRouter.route('/') //dishes uri will be passed in the index.js file, so here 
     res.end('PUT operation is not supported on /dishes');
 });
 
-module.exports.dishRouter;
+module.exports = dishRouter;
